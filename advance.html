@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advance Search</title>
+    <style>
+       /* comment in css */
+       /* .container {
+            width: 500px;
+            clear: both;
+        }
+        .container input{
+            width: 50%;
+            clear: both;
+        }
+        */
+        form  {display: table;margin-top: 100px;}
+        p     {display: table-row;}
+        label {display: table-cell;}
+        input {display: table-cell;width: 300px;}
+
+
+    </style>
+           
+    </head>
+    <body>
+        <div align="right";>
+            <a href="index.html">Search</a>
+        </div>
+        <div class=container>
+            <form  action="https://google.com/search">
+                <p>
+                    <label>all these words:</label><input type="text" name="as_q" >
+                </p>
+                <p>
+                    <label>this exact word or phrase:</label><input type="text" name="as_epq" >
+                </p>
+                <p>
+                    <label>any of these words:</label><input type="text" name="as_oq" >
+                </p>
+                <p>
+                    <label> none of these words:</label><input type="text" name="as_eq" >
+                </p> 
+                <p>
+                    <label hidden></label> <input style="background-color: blue;color:white" type="submit" value="Google Advanced" >
+                </p>
+            </form>
+        </div>
+
+    </body>
+</html>
